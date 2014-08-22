@@ -1,5 +1,6 @@
 
 /* hello world module - Eric McCreath 2005,2006,2008,2010,2012 */
+// modified by Buck Shlegeris
 /* to compile use:
     make -C  /usr/src/linux-headers-`uname -r` SUBDIRS=$PWD modules
    to install into the kernel use :
