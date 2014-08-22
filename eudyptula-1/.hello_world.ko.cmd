@@ -1,0 +1,1 @@
+cmd_/students/u5192430/hello_module/eudyptula-1/hello_world.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.8.0-41-generic/scripts/module-common.lds --build-id  -o /students/u5192430/hello_module/eudyptula-1/hello_world.ko /students/u5192430/hello_module/eudyptula-1/hello_world.o /students/u5192430/hello_module/eudyptula-1/hello_world.mod.o
