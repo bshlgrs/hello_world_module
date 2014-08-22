@@ -24,6 +24,7 @@ __attribute__((section("__versions"))) = {
 	{ 0x2caa7919, "remove_proc_entry" },
 	{ 0x377165d0, "proc_create_data" },
 	{ 0x27e1a049, "printk" },
+	{ 0xd74c8f46, "__mutex_init" },
 	{ 0x181af9d0, "mutex_unlock" },
 	{ 0x4f6b400b, "_copy_from_user" },
 	{ 0xa1c76e0a, "_cond_resched" },
@@ -41,4 +42,4 @@ __attribute__((section(".modinfo"))) =
 "depends=";
 
 
-MODULE_INFO(srcversion, "DBA5496B6112E01745F63FD");
+MODULE_INFO(srcversion, "830BFF92B543F0EB2D91101");
